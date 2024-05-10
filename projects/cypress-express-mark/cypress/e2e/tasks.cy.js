@@ -1,9 +1,18 @@
-/// <reference types="cypress" />
+/// <reference types="cypress"/>
 
 describe('tarefas', () => {
+
+    let testData;
+
+    before (() => {
+        cy.fixture('tasks').then(t => {
+            testData = t
+        })
+    })
+
     context('cadastro', () => {
         it('deve cadastrar uma nova tarefa', () => {
-            const taskName = 'Testar'
+            const taskName = 'Ler um livro de Node.js'
             //Dado que quero cadastrar uma nova tarefa
             cy.removeTaskByName(taskName)
     
@@ -16,10 +25,7 @@ describe('tarefas', () => {
         })
     
         it('não deve permitir tarefa duplicada', () => {
-            const task = {
-                name: 'Estudar',
-                is_done: false
-            }
+            const task = testData.dup
             //Dado que tenho uma tarefa cadastrada
             cy.removeTaskByName(task.name)
     
@@ -44,7 +50,7 @@ describe('tarefas', () => {
     context('atualização', () => {
         it('deve concluir uma tarefa', () => {
             const task = { 
-                name: 'Pagar', 
+                name: 'Pagar contas de consumo', 
                 is_done: false 
             }
             cy.removeTaskByName(task.name)
@@ -63,7 +69,7 @@ describe('tarefas', () => {
     context('exclusão', () => {
         it('deve remover uma tarefa', () => {
             const task = { 
-                name: 'Correr', 
+                name: 'Estudar Javascript', 
                 is_done: false 
             }
             cy.removeTaskByName(task.name)
