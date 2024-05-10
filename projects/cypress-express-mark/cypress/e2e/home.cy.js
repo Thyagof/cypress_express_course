@@ -1,4 +1,4 @@
-/// <reference types="cypress">
+/// <reference types="cypress"/>
 
 describe('home', () => {
   it('webapp deve estar online', () => {

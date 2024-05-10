@@ -6,6 +6,9 @@
   "author": "Thyago",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "12.2.0"
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.29.0",
+    "cypress": "12.2.0",
+    "http-server": "^14.1.1"
   }
 }

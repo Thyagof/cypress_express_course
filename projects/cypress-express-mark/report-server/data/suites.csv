@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 10 13:33:46 BRT 2024","Fri May 10 13:33:47 BRT 2024","448","tarefas","cadastro","","","","campo obrigatório",""
+"passed","Fri May 10 13:33:18 BRT 2024","Fri May 10 13:33:20 BRT 2024","2153","","home","","","","webapp deve estar online",""
+"passed","Fri May 10 13:33:42 BRT 2024","Fri May 10 13:33:44 BRT 2024","2267","tarefas","cadastro","","","","deve cadastrar uma nova tarefa",""
+"passed","Fri May 10 13:33:47 BRT 2024","Fri May 10 13:33:48 BRT 2024","596","tarefas","exclusão","","","","deve remover uma tarefa",""
+"passed","Fri May 10 13:33:47 BRT 2024","Fri May 10 13:33:47 BRT 2024","774","tarefas","atualização","","","","deve concluir uma tarefa",""
+"passed","Fri May 10 13:33:44 BRT 2024","Fri May 10 13:33:46 BRT 2024","1688","tarefas","cadastro","","","","não deve permitir tarefa duplicada",""
