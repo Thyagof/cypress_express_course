@@ -1,4 +1,4 @@
-# (Cypress eXpress)[https://www.udemy.com/course/cypress-express]
+# [Cypress eXpress](https://www.udemy.com/course/cypress-express)
 
 Curso rápido de Cypress ministrado por [Fernando Papito](https://www.papito.dev/)
 
